@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const meow = require('meow');
+const path = require('path');
 const trashJunk = require('trash-junk');
 
 const cli = meow(`
@@ -14,4 +15,7 @@ if (!cli.input[0]) {
     process.exit(1);
 }
 
-trashJunk(cli.input[0]);
+const realPath = path.resolve(cli.input[0]);
+console.log(realPath);
+
+trashJunk(realPath);
