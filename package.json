@@ -1,6 +1,6 @@
 {
   "name": "trash-junk-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Move system junk files to the trash (recursively)",
   "license": "MIT",
   "repository": "soul-wish/trash-junk-cli",
