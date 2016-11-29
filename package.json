@@ -1,0 +1,52 @@
+{
+  "name": "trash-junk-cli",
+  "version": "0.0.0",
+  "description": "Move system junk files to the trash (recursively)",
+  "license": "MIT",
+  "repository": "soul-wish/trash-junk-cli",
+  "author": {
+    "name": "Sergey Lysenko",
+    "email": "soulwish.ls@gmail.com",
+    "url": "soulwish.info"
+  },
+  "bin": {
+    "trash-junk": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "terminal",
+    "trash",
+    "junk",
+    "files",
+    "folders",
+    "DS_STORE",
+    "temp",
+    "tmp",
+    "garbage",
+    "clean",
+    "Thumbs.db"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "trash-junk": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-import": "*",
+    "execa": "^0.5.0",
+    "path-exists": "^3.0.0",
+    "tempfile": "^1.1.1"
+  }
+}
