@@ -16,6 +16,5 @@ if (!cli.input[0]) {
 }
 
 const realPath = path.resolve(cli.input[0]);
-console.log(realPath);
 
 trashJunk(realPath);
